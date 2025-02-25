@@ -7,4 +7,5 @@ document.getElementById("addTaskBtn").addEventListener("click", function () {
   let taskInput = document.getElementById("taskInput").value;
 
   //Check if task input has something in it
+  if
 });
