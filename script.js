@@ -2,4 +2,4 @@
 let tasks = [];
 
 //Add an ON CLICK event listener to the "add task button" that calls a function
-document.getElementById("addTaskBtn").addEventListener;
+document.getElementById("addTaskBtn").addEventListener("click,");
