@@ -5,4 +5,6 @@ let tasks = [];
 document.getElementById("addTaskBtn").addEventListener("click", function () {
   //Get the value of the input box and store it in a variable called taskInput
   let taskInput = document.getElementById("taskInput").value;
+
+  //Check if task input has something in it
 });
