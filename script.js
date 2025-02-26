@@ -30,4 +30,5 @@ function displayTasks() {
   taskList.innerHTML = "";
 
   //Loop through each task in the array and create a list item
+  tasks.forEach();
 }
