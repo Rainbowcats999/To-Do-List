@@ -22,3 +22,6 @@ document.getElementById("addTaskBtn").addEventListener("click", function () {
 });
 
 //Function to display all the tasks in a list
+function displayTasks() {
+  //Select the unarardered lsit (taskList) in the HTML
+}
