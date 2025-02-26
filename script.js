@@ -8,6 +8,6 @@ document.getElementById("addTaskBtn").addEventListener("click", function () {
 
   //Check if task input has something in it
   if (taskInput) {
-    tasks.push;
+    tasks.push();
   }
 });
