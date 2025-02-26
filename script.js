@@ -10,5 +10,5 @@ document.getElementById("addTaskBtn").addEventListener("click", function () {
   if (taskInput) {
     tasks.push(taskInput);
   }
-  console.log();
+  console.log(tasks);
 });
