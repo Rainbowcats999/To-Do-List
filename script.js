@@ -27,4 +27,5 @@ function displayTasks() {
   let taskList = document.getElementById("taskList");
 
   //Clear the existing task list before updating it
+  taskList.innerHTML = "";
 }
