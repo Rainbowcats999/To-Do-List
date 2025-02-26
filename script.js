@@ -41,5 +41,10 @@ function displayTasks() {
       "justify-content-between",
       "align-items-center"
     );
+
+    li.innerHTML = `${task}<button class='btn btn-dark btn-sm' onclick='removeTask(${index})'> √ </button>`;
+
+    //
+    taskList.appendChild(li);
   });
 }
