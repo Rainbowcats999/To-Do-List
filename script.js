@@ -32,6 +32,8 @@ function displayTasks() {
   //Loop through each task in the array and create a list item
   tasks.forEach((task, index) => {
     //Create a new <li> element for each task
-    document.createElement("li");
+    let li = document.createElement("li");
+
+    //Add CSS classes for styling
   });
 }
