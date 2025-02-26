@@ -20,3 +20,5 @@ document.getElementById("addTaskBtn").addEventListener("click", function () {
 
   console.log(tasks);
 });
+
+//Function to display all the tasks in a list
