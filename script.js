@@ -9,6 +9,11 @@ document.getElementById("addTaskBtn").addEventListener("click", function () {
   //Check if task input has something in it
   if (taskInput) {
     tasks.push(taskInput);
+    //Clear the Input after adding the push
+    taskInput.value = "";
+    //
+    displayTasks();
   }
+
   console.log(tasks);
 });
