@@ -28,4 +28,6 @@ function displayTasks() {
 
   //Clear the existing task list before updating it
   taskList.innerHTML = "";
+
+  //Loop through each task in the array and create a list item
 }
