@@ -15,7 +15,7 @@ document.getElementById("addTaskBtn").addEventListener("click", function () {
     document.getElementById("taskInput").value = "";
 
     //
-    //displayTasks();
+    displayTasks();
   }
 
   console.log(tasks);
