@@ -55,3 +55,9 @@ function removeTask(index) {
   //Call the function to update the task list display
   displayTasks();
 }
+
+//Event Listener for the "Clear all Tasks Button"
+
+//Empty the tasks array to remove all tasks
+
+//Call the function to update the task list display
