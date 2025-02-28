@@ -48,3 +48,6 @@ function displayTasks() {
     taskList.appendChild(li);
   });
 }
+
+//Funtion to remove a task from the list when the "check mark button" is clicked
+function removeTask(index) {}
