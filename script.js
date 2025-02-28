@@ -63,3 +63,7 @@ document.getElementById("clearTasksBtn").addEventListener("click", function () {
   //Call the function to update the task list display
   displayTasks();
 });
+
+addEventListener("keypress", (event) => {});
+
+onkeypress = (event) => {};
