@@ -50,4 +50,6 @@ function displayTasks() {
 }
 
 //Funtion to remove a task from the list when the "check mark button" is clicked
-function removeTask(index) {}
+function removeTask(index) {
+  tasks.splice;
+}
