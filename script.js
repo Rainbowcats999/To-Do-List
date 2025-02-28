@@ -61,4 +61,5 @@ document.getElementById("clearTasksBtn").addEventListener("click", function () {
   //Empty the tasks array to remove all tasks
   tasks = [];
   //Call the function to update the task list display
+  displayTasks();
 });
