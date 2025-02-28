@@ -49,7 +49,9 @@ function displayTasks() {
   });
 }
 
-//Funtion to remove a task from the list when the "check mark button" is clicked
 function removeTask(index) {
+  //Funtion to remove a task from the list when the "√" button is clicked
   tasks.splice(index, 1);
+
+  displayTasks();
 }
