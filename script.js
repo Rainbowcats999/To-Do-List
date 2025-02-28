@@ -52,6 +52,6 @@ function displayTasks() {
 function removeTask(index) {
   //Funtion to remove a task from the list when the "√" button is clicked
   tasks.splice(index, 1);
-
+  //Call the function to update the task list display
   displayTasks();
 }
