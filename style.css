@@ -20,11 +20,11 @@ body {
 }
 
 .btn-danger {
-  background-color: rgba(231, 44, 44, 0.781);
+  background-color: rgba(56, 44, 231, 0.781);
 }
 
 .btn-danger:hover {
-  background-color: yellowgreen;
+  background-color: rgb(9, 216, 243);
 }
 
 h1 {
