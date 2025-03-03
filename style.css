@@ -23,5 +23,9 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: white;
+  background-color: rgb(109, 100, 100);
+}
+
+.btn-danger {
+  background-color: rgba(231, 44, 44, 0.781);
 }
