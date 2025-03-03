@@ -17,3 +17,11 @@ body {
   background-position: fixed;
   background-size: cover;
 }
+
+.btn-primary {
+  background-color: black;
+}
+
+.btn-primary: hover {
+
+}
