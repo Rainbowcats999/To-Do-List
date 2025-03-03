@@ -5,14 +5,7 @@ body {
 }
 
 body {
-  background-image: linear-gradient(
-    red,
-    orange,
-    yellow,
-    lime,
-    blue,
-    rgb(94, 3, 94)
-  );
+  background-image: linear-gradient(red, orange, yellow, lime, blue, purple);
   background-repeat: no repeat;
   background-position: fixed;
   background-size: cover;
