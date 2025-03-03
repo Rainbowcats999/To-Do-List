@@ -69,3 +69,21 @@ document.getElementById("taskInput").addEventListener("keydown", (event) => {});
 onkeypress = (event) => {};
 
 tasks.classList.toggle("completed");
+
+let taskCount = 0;
+
+function addTask() {
+  const taskInput = document.getElementById("task-input");
+  const taskList = document.getElementById("task-list");
+  const taskCountSpan = document.getElementById("task-count");
+
+  const taskText = taskInput.value.trim();
+  if (taskText !== "") {
+    const li = document.createElement("li");
+    li.textContent = taskText;
+    taskList.appendChild(li);
+    taskInput.value = "";
+    taskCount++;
+    taskCountSpan.textContent = taskCount;
+  }
+}
