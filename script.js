@@ -67,3 +67,5 @@ document.getElementById("clearTasksBtn").addEventListener("click", function () {
 addEventListener("keydown", (event) => {});
 
 onkeypress = (event) => {};
+
+tasks.classList.toggle("completed");
