@@ -39,7 +39,8 @@ function displayTasks() {
       "align-items-center"
     );
 
-    li.innerHTML = `${task}<button class='btn btn-dark btn-sm' onclick='removeTask(${index})'> √ </button>`;
+    li.innerHTML = `${task}<button class='btn btn-dark btn-sm' onclick='removeTask(${index})'> √ </button>
+    <button class='btn btn-dark btn-sm' onclick='crossOut(${index})'> √ </button>`;
 
     //
     taskList.appendChild(li);
@@ -52,6 +53,11 @@ function removeTask(index) {
   //Call the function to update the task list display
   displayTasks();
 }
+
+function crossOutTask(index) {
+  displayTasks();
+}
+
 window.addEventListener("keydown", (event) => {
   if (event.key == "Enter") {
     addTask();
