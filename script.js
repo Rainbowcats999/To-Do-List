@@ -39,8 +39,10 @@ function displayTasks() {
       "align-items-center"
     );
 
+    li.id = `${index}`;
+
     li.innerHTML = `${task}<button class='btn btn-dark btn-sm' onclick='removeTask(${index})'> √ </button>
-    <button class='btn btn-dark btn-sm' onclick='crossOut(${index})'> √ </button>`;
+    <button class='btn btn-dark btn-sm' onclick='crossOut(${index})'> done </button>`;
 
     //
     taskList.appendChild(li);
@@ -64,4 +66,6 @@ window.addEventListener("keydown", (event) => {
   }
 });
 
-function checkTask(index) {}
+function checkTask(id) {
+  Document.getElementById(id).classList.add();
+}
