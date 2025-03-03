@@ -64,7 +64,7 @@ document.getElementById("clearTasksBtn").addEventListener("click", function () {
   displayTasks();
 });
 
-addEventListener("keydown", (event) => {});
+document.getElementById("taskInput").addEventListener("keydown", (event) => {});
 
 onkeypress = (event) => {};
 
