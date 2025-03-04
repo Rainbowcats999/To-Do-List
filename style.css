@@ -33,6 +33,7 @@ body {
 
 .btn-danger {
   background-color: rgba(56, 44, 231, 0.781);
+  border-color: rgba(56, 44, 231, 0.781);
 }
 
 .btn-danger:hover {
