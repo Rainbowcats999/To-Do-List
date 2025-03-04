@@ -29,6 +29,7 @@ body {
 
 .btn-primary:hover {
   background-color: silver;
+  border-color: silver;
 }
 
 .btn-danger {
