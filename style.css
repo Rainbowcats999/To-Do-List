@@ -10,6 +10,10 @@ body {
   font-style: normal;
 }
 
+title {
+  color: white;
+}
+
 body {
   background-image: url(imgs/20405463.jpg);
   background-repeat: no-repeat;
