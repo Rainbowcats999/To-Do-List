@@ -43,3 +43,7 @@ body {
 .strikethru {
   text-decoration: line-through;
 }
+
+img {
+  border-radius: 50%;
+}
