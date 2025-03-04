@@ -1,4 +1,9 @@
+html {
+  height: 100%;
+  width: 100%;
+}
 body {
+  height: 100%;
   font-family: "quiche-display", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -6,13 +11,18 @@ body {
 
 body {
   background-image: url(imgs/20405463.jpg);
-  background-repeat: no repeat;
-  background-position: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
 .btn-primary {
   background-color: black;
+}
+
+#taskCount {
+  color: white;
+  font-size: 40px;
 }
 
 .btn-primary:hover {
@@ -32,3 +42,6 @@ h1 {
 }
 
 /*text-decoration: line-through*/
+.strikethru {
+  text-decoration: line-through;
+}

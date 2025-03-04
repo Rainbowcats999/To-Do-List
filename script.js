@@ -13,6 +13,8 @@ function addTask() {
     //Clear the Input after adding the push
     document.getElementById("taskInput").value = "";
     //
+    taskCount++;
+    document.getElementById("taskCount").textContent = `Tasks: ${taskCount}`;
     displayTasks();
   }
   console.log(tasks);
@@ -41,8 +43,8 @@ function displayTasks() {
 
     li.id = `${index}`;
 
-    li.innerHTML = `${task}<button class='btn btn-dark btn-sm' onclick='removeTask(${index})'> √ </button>
-    <button class='btn btn-dark btn-sm' onclick='crossOut(${index})'> done </button>`;
+    li.innerHTML = `<span>${task}</span><button class='btn btn-dark btn-sm' onclick='removeTask(${index})'> √ </button>
+    <button class='btn btn-dark btn-sm' onclick='checkTask(${index})'> done </button>`;
 
     //
     taskList.appendChild(li);
@@ -50,13 +52,11 @@ function displayTasks() {
 }
 
 function removeTask(index) {
+  taskCount--;
+  document.getElementById("taskCount").textContent = `Tasks: ${taskCount}`;
   //Funtion to remove a task from the list when the "√" button is clicked
   tasks.splice(index, 1);
   //Call the function to update the task list display
-  displayTasks();
-}
-
-function crossOutTask(index) {
   displayTasks();
 }
 
@@ -67,5 +67,15 @@ window.addEventListener("keydown", (event) => {
 });
 
 function checkTask(id) {
-  Document.getElementById(id).classList.add();
+  document
+    .getElementById(id)
+    .getElementsByTagName("SPAN")[0]
+    .classList.toggle("strikethru");
 }
+
+document.getElementById("removeTask").addEventListener("click", function () {
+  document.getElementById("taskList").innerHTML = "";
+  taskCount = 0;
+  `Tasks: ${taskCount}`;
+  document.getElementById("taskCount").textContent = `Tasks: ${taskCount}`;
+});
