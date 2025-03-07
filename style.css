@@ -28,10 +28,6 @@ body {
   font-size: 40px;
 }
 
-#removeTask {
-  background-color: rgb(11, 187, 11);
-}
-
 .btn-primary:hover {
   background-color: silver;
   border-color: silver;
