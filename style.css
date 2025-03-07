@@ -43,6 +43,10 @@ body {
   border-color: rgb(9, 216, 243);
 }
 
+.btn-danger:hover {
+  background-color: rgb(255, 0, 0);
+}
+
 /*text-decoration: line-through*/
 .strikethru {
   text-decoration: line-through;
