@@ -38,7 +38,7 @@ body {
   border-color: rgba(56, 44, 231, 0.781);
 }
 
-.btn-danger:hover {
+#removeTask.btn-danger:hover {
   background-color: rgb(9, 216, 243);
   border-color: rgb(9, 216, 243);
 }
