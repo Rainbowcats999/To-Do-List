@@ -28,8 +28,8 @@ body {
   font-size: 40px;
 }
 
-#checkTask {
-  color: rgb(39, 180, 39);
+checkTask {
+  background-color: rgb(19, 187, 19);
 }
 
 .btn-primary:hover {
