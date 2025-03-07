@@ -44,7 +44,7 @@ function displayTasks() {
     li.id = `${index}`;
 
     li.innerHTML = `<span>${task}</span><button class='btn btn-dark btn-sm' onclick='removeTask(${index})'> √ </button>
-    <button class='btn btn-dark btn-sm' onclick='checkTask(${index})'> Finished task </button>`;
+    <button class='btn btn-dark btn-sm' onclick='checkTask(${index})'> X </button>`;
 
     //
     taskList.appendChild(li);
