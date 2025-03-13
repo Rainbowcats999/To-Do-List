@@ -43,7 +43,7 @@ function displayTasks() {
 
     li.id = `${index}`;
 
-    li.innerHTML = `<span>${task}</span><span><button class='btn btn-success btn-sm' id='check' onclick='removeTask(${index})'> √ </button>
+    li.innerHTML = `<span>${task}</span><span><button class='btn btn-success btn-sm' id='check' onclick='removeTask(${index})'> ✔ </button>
     <button class='btn btn-danger btn-sm' onclick='checkTask(${index})'> X </button></span>`;
 
     //
